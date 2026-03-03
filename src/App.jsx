@@ -1,5 +1,6 @@
 import './App.css'
 import LabelButton from './components/LabelButton'
+import NameList from './components/NameList';
 import Popup from './components/Popup';
 import Status from './components/Status';
 
@@ -22,6 +23,8 @@ function App() {
       <Popup show='yes' />
       <h3>Multiple Conditions or Content Blocks</h3>
       <Status status='success' />
+      <h3>Using .map to get values from an object list</h3>
+      <NameList />
     </>
   )
 }
