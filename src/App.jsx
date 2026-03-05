@@ -3,6 +3,10 @@ import LabelButton from './components/LabelButton'
 import NameList from './components/NameList';
 import Popup from './components/Popup';
 import Status from './components/Status';
+import NameForm from './components//Form/NameForm';
+import LoginForm from './components/Form/LoginForm';
+import PreferencesForm from './components/Form/PreferencesForm';
+import RegisterForm from './components/Form/RegisterForm';
 
 function App() {
   const handleClick = () => {
@@ -25,6 +29,14 @@ function App() {
       <Status status='success' />
       <h3>Using .map to get values from an object list</h3>
       <NameList />
+      <h3>Simple Forms</h3>
+      <NameForm />
+      <h3>Multiple inputs form</h3>
+      <LoginForm />
+      <h3>Preferences Form</h3>
+      <PreferencesForm />
+      <h3>Register Form</h3>
+      <RegisterForm />
     </>
   )
 }
