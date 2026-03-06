@@ -7,6 +7,10 @@ import NameForm from './components//Form/NameForm';
 import LoginForm from './components/Form/LoginForm';
 import PreferencesForm from './components/Form/PreferencesForm';
 import RegisterForm from './components/Form/RegisterForm';
+import Counter from './components/useStateHook/Counter';
+import NameFormState from './components/useStateHook/NameFormState';
+import ToggleMessage from './components/useStateHook/ToggleMessage';
+import UserProfile from './components/useStateHook/UserProfile';
 
 function App() {
   const handleClick = () => {
@@ -14,6 +18,8 @@ function App() {
   }
   const userExist = 'Mario';
   const messages = 10;
+
+  const useStateHookSyntax = 'const [state, setState<type>(initialValue)';
   return (
     <>
       <LabelButton onClick={handleClick} label="Click Me" />
@@ -37,6 +43,16 @@ function App() {
       <PreferencesForm />
       <h3>Register Form</h3>
       <RegisterForm />
+      <h2>Using useState() Hook (with TypeScript)</h2>
+      <p>Syntax: {useStateHookSyntax}</p>
+      <h3>Counter</h3>
+      <Counter />
+      <h3>Name Form 2</h3>
+      <NameFormState />
+      <h3>Boolean State (toggling UI)</h3>
+      <ToggleMessage />
+      <h3>Complex States</h3>
+      <UserProfile />
     </>
   )
 }
