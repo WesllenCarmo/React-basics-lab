@@ -11,6 +11,8 @@ import Counter from './components/useStateHook/Counter';
 import NameFormState from './components/useStateHook/NameFormState';
 import ToggleMessage from './components/useStateHook/ToggleMessage';
 import UserProfile from './components/useStateHook/UserProfile';
+import Parent from './components/liftStateUp/Parent';
+import StudentCard from './components/liftStateUp/StudentCard';
 
 function App() {
   const handleClick = () => {
@@ -53,6 +55,11 @@ function App() {
       <ToggleMessage />
       <h3>Complex States</h3>
       <UserProfile />
+      <h2>Lifting States Up</h2>
+      <h3>Mirror</h3>
+      <Parent />
+      <h3>Student Card</h3>
+      <StudentCard />
     </>
   )
 }
