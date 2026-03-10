@@ -13,6 +13,7 @@ import ToggleMessage from './components/useStateHook/ToggleMessage';
 import UserProfile from './components/useStateHook/UserProfile';
 import Parent from './components/liftStateUp/Parent';
 import StudentCard from './components/liftStateUp/StudentCard';
+import TemperatureConverter from './components/liftStateUp/TemperatureConverter';
 
 function App() {
   const handleClick = () => {
@@ -60,6 +61,8 @@ function App() {
       <Parent />
       <h3>Student Card</h3>
       <StudentCard />
+      <h3>Temperature converter</h3>
+      <TemperatureConverter />
     </>
   )
 }
