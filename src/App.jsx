@@ -63,6 +63,7 @@ function App() {
       <StudentCard />
       <h3>Temperature converter</h3>
       <TemperatureConverter />
+      <h3>Catalog</h3>
     </>
   )
 }
