@@ -14,6 +14,7 @@ import UserProfile from './components/useStateHook/UserProfile';
 import Parent from './components/liftStateUp/Parent';
 import StudentCard from './components/liftStateUp/StudentCard';
 import TemperatureConverter from './components/liftStateUp/TemperatureConverter';
+import Catalog from './components/liftStateUp/Catalog';
 
 function App() {
   const handleClick = () => {
@@ -64,6 +65,7 @@ function App() {
       <h3>Temperature converter</h3>
       <TemperatureConverter />
       <h3>Catalog</h3>
+      <Catalog />
     </>
   )
 }
