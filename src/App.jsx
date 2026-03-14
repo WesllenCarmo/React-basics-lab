@@ -15,6 +15,7 @@ import Parent from './components/liftStateUp/Parent';
 import StudentCard from './components/liftStateUp/StudentCard';
 import TemperatureConverter from './components/liftStateUp/TemperatureConverter';
 import Catalog from './components/liftStateUp/Catalog';
+import StatePropCounter from './components/useStateHook/StatePropCounter';
 
 function App() {
   const handleClick = () => {
@@ -66,6 +67,8 @@ function App() {
       <TemperatureConverter />
       <h3>Catalog</h3>
       <Catalog />
+      <h3>Counter with State & Props in TypeScript</h3>
+      <StatePropCounter />
     </>
   )
 }
