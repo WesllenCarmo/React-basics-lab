@@ -1,8 +1,8 @@
 import './App.css'
-import LabelButton from './components/LabelButton'
-import NameList from './components/NameList';
-import Popup from './components/Popup';
-import Status from './components/Status';
+import LabelButton from './components/misc/LabelButton'
+import NameList from './components/misc/NameList';
+import Popup from './components/misc/Popup';
+import Status from './components/misc/Status';
 import NameForm from './components//Form/NameForm';
 import LoginForm from './components/Form/LoginForm';
 import PreferencesForm from './components/Form/PreferencesForm';
