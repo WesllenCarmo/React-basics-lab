@@ -17,6 +17,7 @@ import TemperatureConverter from './components/liftStateUp/TemperatureConverter'
 import Catalog from './components/liftStateUp/Catalog';
 import StatePropCounter from './components/useStateHook/StatePropCounter';
 import UserForm from './components/useStateHook/UserForm';
+import CounterReducer from './components/useReducer/CounterReducer';
 
 function App() {
   const handleClick = () => {
@@ -72,6 +73,8 @@ function App() {
       <StatePropCounter />
       <h3>UserForm</h3>
       <UserForm />
+      <h3>Counter Reduce</h3>
+      <CounterReducer />
     </>
   )
 }
